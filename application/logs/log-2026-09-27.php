@@ -1,0 +1,36 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2026-09-27 00:12:00 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 00:13:02 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 01:07:29 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 01:09:22 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 01:43:03 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 02:24:35 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 03:40:20 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 03:42:16 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 03:43:10 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 04:31:58 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 06:07:45 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 06:10:21 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 06:44:47 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 08:41:48 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 08:42:21 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 09:16:51 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 10:42:37 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 11:18:30 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 13:08:33 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 13:51:25 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 15:21:10 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 16:11:09 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 16:53:02 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 16:53:06 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 17:29:23 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 18:00:37 --> 404 Page Not Found: Assets/website
+ERROR - 2026-09-27 18:54:16 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 19:41:26 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 20:20:30 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 20:54:25 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 21:34:05 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 22:14:06 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 23:09:17 --> 404 Page Not Found: Metajson/index
+ERROR - 2026-09-27 23:51:14 --> 404 Page Not Found: Metajson/index
