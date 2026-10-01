@@ -1,0 +1,31 @@
+FROM php:8.2-apache
+
+# Install MySQL/MariaDB PHP extension
+RUN docker-php-ext-install mysqli
+
+# Enable Apache URL rewriting
+RUN a2enmod rewrite
+
+# Copy application
+COPY . /var/www/html/
+
+# Allow CodeIgniter .htaccess rules
+RUN printf '%s\n' \
+    '<Directory /var/www/html>' \
+    '    AllowOverride All' \
+    '    Require all granted' \
+    '</Directory>' \
+    > /etc/apache2/conf-available/codeigniter.conf \
+    && a2enconf codeigniter
+
+# Make CodeIgniter writable directories writable
+RUN mkdir -p /var/www/html/application/cache \
+    /var/www/html/application/logs \
+    /var/www/html/upload \
+    && chown -R www-data:www-data \
+       /var/www/html/application/cache \
+       /var/www/html/application/logs \
+       /var/www/html/upload
+
+# Vercel supplies PORT at runtime
+CMD ["sh", "-c", "PORT=${PORT:-8080}; sed -i \"s/^Listen .*/Listen ${PORT}/\" /etc/apache2/ports.conf; sed -i \"s/<VirtualHost \\*:.*>/<VirtualHost *:${PORT}>/\" /etc/apache2/sites-available/000-default.conf; apache2-foreground"]
